@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+}
+
+button::before {
+  content: "Pasa por encima";
+}
+
+button:hover::before {
+  content: "¡Hecho!";
+}
+
+button:hover {
+  color: white;
+  background-color: green;
+  border: none;
+  border-radius: 10px;
+}
