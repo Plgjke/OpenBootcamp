@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-moderno {
+  width: 100px;
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  border-bottom: darkgreen;
+  transition: all 0.4s;
+}
+
+.btn-moderno:hover {
+  background-color: #05b405;
+  color: #036303;
+  box-shadow: 0 0 10px #036303;
+  transform: translateY(-5px);
+}
